@@ -45,4 +45,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localizationData: {fileID: 11400000, guid: c1112c78f8453c5429830cef6032b2e3, type: 2}
-  jsonPath: Assets/_Wazash/Localizash/JSONs/ExampleJSON.json
+  jsonAsset: {fileID: 4900000, guid: cf48dd6abb947a54e99eed21aed08c56, type: 3}
