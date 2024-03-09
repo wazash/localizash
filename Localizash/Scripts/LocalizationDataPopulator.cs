@@ -8,13 +8,13 @@ namespace Wazash.Localizash
     public class LocalizationDataPopulator : MonoBehaviour
     {
         [SerializeField] private LocalizationData localizationData;
-        [SerializeField] private TextAsset jsonAsset;
+        [SerializeField] private string jsonPath = "Assets/_Wazash/Localizash/JSONs/ExampleJSON.json";
 
         private readonly DataParser dataParser = new();
 
         public void PopulateLocalizationData(string json, LocalizationData data)
         {
-            dataParser.ParseData(json, data);
+            dataParser.ParseData(System.IO.File.ReadAllText(json), data);
         }
 
         public void PopulateLocalizationData()
@@ -25,13 +25,13 @@ namespace Wazash.Localizash
                 return;
             }
 
-            if(string.IsNullOrEmpty(jsonAsset.text))
+            if(string.IsNullOrEmpty(jsonPath))
             {
                 Debug.LogError("JSON path is not assigned");
                 return;
             }
 
-            PopulateLocalizationData(jsonAsset.text, localizationData);
+            PopulateLocalizationData(jsonPath, localizationData);
         }
     }
 }

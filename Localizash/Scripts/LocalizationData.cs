@@ -29,9 +29,14 @@ namespace Wazash.Localizash
             { "pl", "Polski" },
             { "es", "Español" },
             { "fr", "Français" },
-            { "de", "Deutsch" }
+            { "de", "Deutsch" },
+            { "it", "Italian" },
+            { "ja", "Japanese" },
+            { "ko", "Korean" },
+            { "pt", "Portuguese" },
+            { "ru", "Russian" },
+            { "zh", "Chinese" }
             // Add more languages here
-            // { "xx", "LanguageName" }
         };  
 
         public void AddEntry(string key, string languageCode, string translation)
