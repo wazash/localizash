@@ -34,7 +34,13 @@ Download the unitypackage file and simply drag it into the editor's project wind
      ![JSON file syntax](https://dl.dropboxusercontent.com/scl/fi/p7l3mycdj0s0cujwaz28s/json-blueprint.png?rlkey=eypu6wir6lt9zu6x05tp707so&dl=0)
    - **Manual Entry:** You can also manually enter localization data directly into the Localizash interface within Unity, providing an easy way to add or edit language entries.
 
-3. **Utilizing Localization in Your Game:**
+3. **Works With Dropdown:**.
+   - **Unity dropdown** is integrated. Just drop LanguageDropdownManager into Hierarchy and assing dropdown into field. Now dropdown values will updated to all supported languages (depends on language codes in LocalizationData SO) and show languages names based on OriginalLanguageNames Dictionary inside LocalizationData.cs. Also changing language from dropdown will refresh all LocalizedUI components.
+
+![Dropdown implementation](https://dl.dropboxusercontent.com/scl/fi/5so6xq7urphs9tybpeq13/dropdown-manager.png?rlkey=q3xbhxtq5xse57h0p43vilwfc&dl=0) 
+![Original Language Names Ditionary](https://dl.dropboxusercontent.com/scl/fi/it8ytrx0g4m2cig9s0dmh/language-codes.png?rlkey=rhjmoahmkuy0ukv9muuoghycu&dl=0)
+
+4. **Utilizing Localization in Your Game:**
    - Integrate the Localizash API calls in your game scripts to dynamically load and display the appropriate language text, ensuring a seamless experience for users across different languages.
 
 ![Presentation](https://dl.dropboxusercontent.com/scl/fi/wy374hgts8zw6pllqqep5/localizash-presentation.gif?rlkey=okk0yns358xefq9u6re27aq18&dl=0)
