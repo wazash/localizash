@@ -1,8 +1,8 @@
 {
-    "name": "wazash.localizasz.editor",
+    "name": "wazash.localizash.editor",
     "rootNamespace": "",
     "references": [
-        "GUID:d148515f838f18a42a60aca8cf15c7db"
+        "GUID:1b7f8a3da565b7447934f7923a4a14d0"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
