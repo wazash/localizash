@@ -1,0 +1,20 @@
+{
+  "name": "com.wazash.com.wazash.localizash",
+  "version": "1.0.0",
+  "displayName": "Localizash - Localization Tool",
+  "description": "This tool allows you to manage translations for your game.",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "keywords": [
+    "localization",
+    "translation"
+  ],
+  "author": {
+    "name": "Wazash",
+    "email": "wazash@protonmail.com",
+    "url": "https://github.com/wazash"
+  }
+}

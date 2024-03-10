@@ -1,0 +1,16 @@
+{
+    "name": "wazash.localizasz.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d148515f838f18a42a60aca8cf15c7db"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
